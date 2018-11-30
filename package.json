@@ -1,0 +1,19 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "main": "build/math.js",
+  "author": "vigovlugt",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "run": "node build/math.js",
+    "lint": "tslint"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0",
+    "prettier": "1.15.3",
+    "ts-jest": "^23.10.5"
+  }
+}
